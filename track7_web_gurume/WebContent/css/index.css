@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*--------------------기본 설정----------------------*/
+*{
+	padding:0;
+	margin:0;
+	//white-space:nowrap;
+	//overflow:hidden;
+}
+ul{
+	list-style: none;
+	//font-size:0px;
+}
+a{
+	text-decoration:none;
+}
+body{
+	overflow:hidden;
+	background-color:blue;
+	background:#2AC1BC;
+}
+img{
+	width:100%;
+	height:100%;
+}
+table{
+	background:#00b5b5;
+	border:1px solid #00a6a6;
+	padding:50px;
+}
+td,th{
+	padding:15px;
+}
+main{
+	overflow:hidden;
+	position:relative;
+	background-color:#2AC1BC;
+	width:1300px;
+	height:1000px;
+	margin:0px auto;
+}
+nav{
+	position:fixed;
+	z-index:10005;
+	height:30px;
+	width:1300px;
+	top:50px;
+}
+/*-----class-----*/
+.floatLeft{
+	float:right;
+	width:12%;
+	text-align:center;
+}
+.float{
+	float:left;
+	text-align:center;
+}
+.fontsize{
+	padding:9px;
+	width:200px;
+	font-size:20px;
+}
+.width300{
+	width:200px;
+	font-size:30px;
+	margin:10px;
+}
+.colorWhite{
+	color:white;
+}
+
+.position1300{
+	position: absolute; top:0px; left: 1300px;
+}
+.positionlabel{
+	position: absolute; top:400px; left: 1100px;
+}
+.center{
+	text-align:center;
+}
+.right{
+	text-align:right;
+}
+.left{
+	text-align:left;
+}
+.button{
+	padding:10px;
+	background:#3a64c5;
+	color:white;
+}
+
+
+/*----------------index페이지용------------------*/
+.logintable{
+	width:500px;position:relative;top:200px;left:400px;
+}
+
+input[name=a]{display: none;}
+
+main .move1{position:relative; transition:1s;}
+
+main .move2{transition:1s;}
+
+/*이미지를 슬라이드 한다*/
+input[id=page1]:checked ~main .move1{top:0px;}
+input[id=page2]:checked ~main .move1{top:-1080px;}
+input[id=page3]:checked ~main .move1{top:-2160px;}
+
+input[id=pagelogin]:checked ~main .move2{left:0px;}
+
+
+/*체크박스의 위치를 정한다*/
+main .checkpos{position: absolute; top:450px; left:1230px;}
+/*체크박스의 체크상태를 변경한다*/
+main .hidden{display: none;}
+input[id=page1]:checked ~main .same1{display:block;}
+input[id=page2]:checked ~main .same2{display:block;}
+input[id=page3]:checked ~main .same3{display:block;}
+
+input[id=pagelogin]:checked ~main .hidden{display: none;}
+input[id=pagelogin]:checked ~main .hidden2{display: none;}
+
+/*------로그인용-------------------------------*/
+.login2,.login3{display: none;}
+
+
+input[id=idlogin]:checked ~main .login1{display:table-row-group;} 
+input[id=idlogin]:checked ~main .login2{display:none;}
+input[id=idlogin]:checked ~main .login3{display:none;}
+
+input[id=idsearch]:checked ~main .login1{display:none;}
+input[id=idsearch]:checked ~main .login2{display:table-row-group;}
+input[id=idsearch]:checked ~main .login3{display:none;}
+
+input[id=pwsearch]:checked ~main .login3{display:table-row-group;} 
+input[id=pwsearch]:checked ~main .login2{display:none;}
+input[id=pwsearch]:checked ~main .login1{display:none;}
+
+
+/*main 페이지용*/
+section{
+	height:200px;
+}
+.section1{
+	display:inline;
+	position:relative;top:200px;
+}
+.section2{
+	display:inline;
+	position:relative;top:300px;
+}
+.section3{
+	display:inline;
+	position:relative;top:400px;
+}
+
+.size34{
+	border:1px solid black;
+	height:170px;
+	width:250px;
+}
+
+/*-----회원가입페이지용 ----*/
+
+.jointable{
+	width:800px;position:relative;top:200px;left:200px;
+}
+.fontsize2{
+	padding:6px;
+	font-size:15px;
+}
+
