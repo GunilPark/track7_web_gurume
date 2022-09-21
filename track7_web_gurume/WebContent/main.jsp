@@ -22,16 +22,15 @@
 				<li class="floatLeft"><a class="colorWhite fontsize" href="index.jsp">홈화면</a></li>
 			</ul>	
 		</nav>
-		
 		<section class="section1" style="display:inline;">
 			<h2>인기순</h2>
 			<ul style="white-space:nowrap">
 				<li class="float"><a><i class="fa-sharp fa-solid fa-circle-arrow-left"></i></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/burgerking.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/kfc.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/McDonald's.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/burgerking.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/kfc.png""></a></li>
 				<li class="float"><a><i class="fa-sharp fa-solid fa-circle-arrow-right"></i></a></li>
 			</ul>
 		</section>
@@ -39,11 +38,11 @@
 			<h2>거리순</h2>
 			<ul style="white-space:nowrap">
 				<li class="float"><a><i class="fa-sharp fa-solid fa-circle-arrow-left"></i></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/kfc.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/McDonald's.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/burgerking.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/kfc.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/McDonald's.png"></a></li>
 				<li class="float"><a><i class="fa-sharp fa-solid fa-circle-arrow-right"></i></a></li>
 			</ul>
 		</section>
@@ -51,11 +50,11 @@
 			<h2>평점순</h2>
 			<ul style="white-space:nowrap">
 				<li class="float"><a><i class="fa-sharp fa-solid fa-circle-arrow-left"></i></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
-				<li class="size34 float"><a href="view.jsp"><img  src="img/background/page3.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/McDonald's.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/burgerking.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/kfc.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/McDonald's.png"></a></li>
+				<li class="size34 float"><a href="view.jsp"><img  src="img/attach/shop_logo/burgerking.png"></a></li>
 				<li class="float"><a><i class="fa-sharp fa-solid fa-circle-arrow-right"></i></a></li>
 			</ul>
 		</section>

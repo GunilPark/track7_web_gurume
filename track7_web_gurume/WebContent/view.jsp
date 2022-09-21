@@ -16,7 +16,20 @@
 </head>
 <body>
 	<main>
-			식당 뷰 페이지.
+		<nav>
+			<ul>
+				<!-- 로그인전 뛰울것 -->
+				<li class="floatLeft"><label class="colorWhite fontsize" for="pagelogin">로그인</label></li>
+				<!-- 로그인후 뛰울것 -->
+				<li class="floatLeft"><label class="colorWhite fontsize" for="pagelogin">로그아웃</label></li>
+				<li class="floatLeft"><a class="colorWhite fontsize" href="mypage.jsp">마이페이지</a></li>
+				
+				<li class="floatLeft"><a class="colorWhite fontsize" href="index.jsp">홈화면</a></li>
+			</ul>	
+		</nav>
+		식당 뷰 페이지.
+			
+			
 	</main>
 </body>
 </html>
