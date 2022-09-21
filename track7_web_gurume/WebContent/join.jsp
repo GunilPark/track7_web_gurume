@@ -5,10 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <link href="css/index.css" rel="stylesheet">
+<!-- jQuery  -->
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- 주소불러오기 -->
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-<!-- jQuery
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" ></script> -->
 <!-- iamport.payment.js -->
 <script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.5.js"></script>
 <title>Insert title here</title>
@@ -93,53 +93,6 @@ function openZipSearch() {
 			$('[name=addr2]').val(data.buildingName);
 		}
 	}).open();
-}
-</script>
-<script type="text/javascript">
-var IMP = window.IMP; // 생략가능
-IMP.init('iamport'); // 'iamport' 대신 부여받은 "가맹점 식별코드"를 사용
- 
-/* 중략 */
-IMP.certification({
-    merchant_uid : 'merchant_' + new Date().getTime() //본인인증과 연관된 가맹점 내부 주문번호가 있다면 넘겨주세요
-}, function(rsp) {
-    if ( rsp.success ) {
-         // 인증성공
-        console.log(rsp.imp_uid);
-        console.log(rsp.merchant_uid);
-        
-        $.ajax({
-                type : 'POST',
-                url : '/certifications/confirm',
-                dataType : 'json',
-                data : {
-                    imp_uid : rsp.imp_uid
-                }
-         }).done(function(){
-           takeResponseAndHandle(rsp)
-         });
-            
-    } else {
-         // 인증취소 또는 인증실패
-        var msg = '인증에 실패하였습니다.';
-        msg += '에러내용 : ' + rsp.error_msg;
- 
-        alert(msg);
-    }
-});
- 
-function takeResponseAndHandle(rsp) {
-    if ( rsp.success ) {
-        // 인증성공
-        console.log(rsp.imp_uid);
-        console.log(rsp.merchant_uid);
-    } else {
-         // 인증취소 또는 인증실패
-        var msg = '인증에 실패하였습니다.';
-        msg += '에러내용 : ' + rsp.error_msg;
- 
-        alert(msg);
-    }
 }
 </script>
 </html>

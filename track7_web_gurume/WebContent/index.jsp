@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link href="css/index.css" rel="stylesheet">
+<!-- 폰트어썸 -->
 <script src="https://kit.fontawesome.com/8e082fcf6a.js" crossorigin="anonymous"></script>
 <title>Insert title here</title>
 </head>
@@ -159,8 +160,6 @@
 				</ul>
 		</div>
 		<!-- -->
-			
-			
 	</main>
 	
 </body>
