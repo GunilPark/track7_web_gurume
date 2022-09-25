@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/index.css" rel="stylesheet">
+
+<meta charset="UTF-8">
+<title>대한민국 1등 이집어때?</title>
+</head>
+<body class="IndexBackGround">
+
+
+
+<!-- 라벨 안먹는거 수정부터 ... -->
+
+
+<!-- **************************************컨트롤러 영역************************************************* -->
+
+<!-- 이미지 요소들을 슬라이드 시키기 위한 컨트롤러 입니다-->
+<!-- 주로 라디오버튼 혹은 체크박스로 이루어져 있으며 해당 버튼의 체크 유무에 따라 요소들이 동적으로 반응할 것입니다-->
+
+
+<!-- 세로 슬라이드 컨트롤러 -->
+<input name="a" type="radio" id="page1" checked>
+<input name="a" type="radio" id="page2">
+<input name="a" type="radio" id="page3">
+<input name="a" type="radio" id="page4">
+<input name="a" type="radio" id="page5">
+<br>
+
+
+<!-- 가로 슬라이드 컨트롤러 -->
+
+<!-- 로그인 컨트롤러 -->
+<input name="b" type="radio" id="LoginPage">
+<!-- 회원가입 컨트롤러-->
+<input name="b" type="radio" id="NewAccount">
+<!-- 슬라이드의 배치를 디폴트 값으로 설정 (현재 나와있는 로그인과 회원가입창을 다시 감춘다)-->
+<input name="b" type="radio" id="Default">
+
+<!-- 추천리스트 컨트롤러 -->
+<br>
+<input name="c" type="radio" id="ReCommend_1">
+<input name="c" type="radio" id="ReCommend_2">
+<input name="c" type="radio" id="ReCommend_3">
+
+
+
+
+<!--********************************************************************************************************-->
+
+
+<!-- ***********************************************센터뷰 영역***********************************************-->
+
+<!-- 이곳은 화면에 출력될 요소의 범위 입니다 -->
+<!-- 센터뷰를 벗어난 요소는 더이상 화면에 보이지 않습니다-->
+<section class="CenterView">
+    
+<!-- 상위메뉴 -->
+<!-- 이곳은 홈으로, 로그인, 마이페이지 등의 메뉴UI들이 배치되어 있습니다 -->
+<nav>
+    <ul>
+    <li>
+      <h2 style="margin-right: 500px; color: white;">
+        <img class="nav_logo" src="img/logo/logo2.0_ver.png">
+      </h2>
+    </li>
+    
+    <li><label for="LoginPage"><img class="Login_Icon" src="img/floating/main.png"></label></li>
+    <li><img class="Menu_Icon" src="img/floating/iconBlog@2x.png"></li>
+    <li><img src="img/floating/iconFacebook@2x.png"></li>
+    <li><img src="img/floating/iconInstagram@2x.png"></li>
+    <li><img src="img/floating/iconYoutube@2x.png"></li>
+    </ul>
+</nav>
+    
+
+
+
+
+
+<!-- 화면에 출력할 요소의 공간 입니다 -->
+<!-- 체크된 컨트롤러에 따라 상하로 슬라이드 합니다 -->
+<section class="FullPage">
+         <ul>
+            <li>
+                <div class="FullPage_"> <!-- 첫번째 풀페이지 오늘의메뉴 -->
+                
+                <!-- 모델사진 -->
+                <div class="Model">모델사진을 넣어 주세요</div>
+                
+                <!-- 이곳은 추천리스트 입니다 -->
+                <div class="ReCommend">
+                    <ul>
+                        <li><div class="ReCommend_">추천 사진1</div></li>
+                        <li><div class="ReCommend_">추천 사진2</div></li>
+                        <li><div class="ReCommend_">추천 사진3</div></li>
+                        <li><div class="ReCommend_">추천 사진4</div></li>
+                        <li><div class="ReCommend_">추천 사진5</div></li>
+                    </ul>
+                </div>
+
+                </div>
+        
+            </li>
+            <li>
+              <div class="FullPage_"><!-- 두번째 풀페이지 이벤트정보 -->
+                요소를 채워주세요
+
+
+
+
+
+
+
+              </div>
+            </li>
+            
+            <li>
+              <div class="FullPage_"><!-- 세번째 풀페이지 구독정보 -->
+              요소를 채워주세요
+              
+              
+
+
+
+              </div>
+            
+            </li>
+
+            <li>
+              <div class="FullPage_"><!-- 네번째 풀페이지 채용정보 -->
+                요소를 채워주세요
+                
+                
+  
+  
+                
+                </div>
+            
+            </li>
+
+            <li>
+
+              <div class="FullPage_"><!-- 다섯번째 풀페이지 기업소개 -->
+                요소를 채워주세요
+                
+                
+  
+  
+                
+                </div>
+              
+            
+            </li>
+        </ul>
+</section>
+
+
+    
+<!-- 이곳은 우측화면 로그인 페이지 의 컨테이너 입니다 -->
+<section class="LoginPage">
+        
+        <!-- 로그인박스 입니다  -->
+        <div class="LoginWrapp">
+            <div class="Top">
+            여기<br>
+            어때?
+            </div>
+            
+            <div class="Box">
+            
+                <div class="Login_text">로그인</div>
+            
+                
+                <table class="LoginTable">
+                    <colgroup>
+                        <col width = 40%;>
+                        <col width = 60%;>
+                    </colgroup>
+                    <tr class="MarginButtom">
+                        <th  class="Id_text">아이디</th>
+                        <td><input class="InputStyle" type="text"></td>
+                    </tr>
+                    <tr>
+                        <th  class="Pw_text">비밀번호</th>
+                        <td><input  class="InputStyle" type="text"></td>
+                    </tr>
+                </table>
+                <label for="NewAccount"> 회원가입</label>
+                
+            </div>
+            
+            
+        </div>
+</section>
+
+<!-- 이곳은 회원가입 페이지 입니다 -->
+<section class="NewAccount"><br>
+    
+        <table class="jointable">
+            <colgroup>
+             <col width="35%">
+             <col width="65%">
+            </colgroup>
+    
+    
+            <tbody>
+               <tr>
+                  <th colspan="2"><h1>회원가입</h1></th>
+               </tr>
+             <tr>
+               <th>아이디</th>
+               <td>
+                <input name="t_id" type="text" id="id" maxlength="10"  size="10"  title="id입력하세요">
+                <input class="checkB fontsize2" type="reset" onclick="" id="check" value="ID중복검사" >
+                <input name="t_idCheck" type="hidden" id="checkValue" value="" > <!-- ???? -->
+                <span id="idReasult"></span> <!-- ??? -->
+               </td>
+             </tr>
+             <tr>
+               <th>비빌번호</th>
+               <td><input name="t_pw"  maxlength="10" type="password" size="13"></td>        
+             </tr>
+             <tr>
+               <th>비밀번호확인</th>
+               <td><input name="t_pw_confirm"  maxlength="10" type="password" size="13"></td>
+             </tr>
+             <tr>
+               <th>성 명</th>
+               <td><input name="t_name"  maxlength="10"  type="text" size="8"></td>
+             </tr>
+             <tr>
+               <th>생년월일</th>
+               <td><input name="t_birth"  maxlength="10"  type="text" size="8"></td>
+             </tr>
+             <tr>
+               <th>성별</th>
+               <td><input name="t_gender"  maxlength="10"  type="text" size="8"></td>
+             </tr>
+             <tr>
+               <th class="fontsize2">연락처</th>
+               <td>
+                <input name="t_tell_1" maxlength="3" type="text" size="3"> -
+                <input name="t_tell_2" maxlength="4" type="text" size="4"> -
+                <input name="t_tell_3" maxlength="4" type="text" size="4">
+                <p>인증기능 추가 해주세요.</p>
+               </td>
+             </tr>
+             <tr>
+               <th>e-mail</th>
+               <td><input name="t_e_mail"  maxlength="15"  type="text" size="15"></td>
+             </tr>
+             <tr>
+               <th><label class="fontsize2">주소</label></th>
+               <td>
+                  <input type="text" name="zip" size="5" placeholder="우편 번호"/>
+                <button type="button" onclick="openZipSearch()">우편번호 검색</button><br>
+                <input type="text" name="addr1" placeholder="도로명 주소" readonly /><br>
+                <input type="text" name="addr2" placeholder="상세주소" />
+              </td>
+             </tr>   
+             <tr>
+                <td colspan="2"><label for="Default">회원가입완료</label></td>
+            </tr>
+
+            </tbody>
+          </table>
+    
+    
+    
+  </section>
+    
+  </section>
+    
+
+
+<!-- ********************************************************************************************************-->
+
+
+
+
+
+<!-- *************************************************우측버튼 영역*******************************************************-->
+
+
+<!-- 이곳에선 화면우측에 출력되는 버튼들에 대해 제어하고 있습니다  -->
+<!-- 이미지 버튼을 클릭하면 센터뷰 영역의 요소들이 상하로 슬라이드 합니다 -->
+<!-- 이미지 버튼은 컨트롤러와 라벨로 연결되어 있습니다 -->
+<div class="ControlBox">	
+    <ul>
+    <li><label for="page1">오늘의메뉴</label></li><!-- 오늘의메뉴 -->
+    <li><label for="page2">이벤트정보</label></li><!-- 이벤트정보 -->
+    <li><label for="page3">구독정보</label></li><!-- 구독정보 -->
+    <li><label for="page4">채용정보</label></li><!-- 채용정보 -->
+    <li><label for="page5">기업소개</label></li><!-- 기업소개 -->
+    </ul>
+    
+    
+</div>
+    
+
+<!-- ********************************************************************************************************-->
+
+
+
+<!-- **************************************************뒷배경영역**************************************************  -->
+
+
+<footer>
+  <ul class="Left_Slide"  style="margin-top:7px"> <!--왼쪽으로 흐르는 로고 -->
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        <li> 
+          <div class="Advertisement_Logo_Left">
+            <video muted autoplay loop>
+              <source src="img/bg_img/img1.mp4" type="video/mp4">
+              <strong>Your browser does not support the video tag.</strong>
+            </video>
+          </div> 
+        </li>
+        
+       
+  </ul>
+  
+  <br><!-- 빈여백 -->
+  <br><!-- 빈여백 -->
+  <br><!-- 빈여백 -->
+
+
+  <ul class="Right_Slide"> <!--오른쪽으로 흐르는 로고 -->
+     <li> <div class="Advertisement_Logo_Right"></div> </li>
+      <li> 
+        <div class="Advertisement_Logo_Right">
+          <video muted autoplay loop>
+            <source src="img/bg_img/img4.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
+        </div> 
+      </li>
+      <li> 
+        <div class="Advertisement_Logo_Right">
+          <video muted autoplay loop>
+            <source src="img/bg_img/img4.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
+        </div> 
+      </li>
+      <li> 
+        <div class="Advertisement_Logo_Right">
+          <video muted autoplay loop>
+            <source src="img/bg_img/img4.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
+        </div> 
+      </li>
+      <li> 
+        <div class="Advertisement_Logo_Right">
+          <video muted autoplay loop>
+            <source src="img/bg_img/img4.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
+        </div> 
+      </li>
+      <li> 
+        <div class="Advertisement_Logo_Right">
+          <video muted autoplay loop>
+            <source src="img/bg_img/img4.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
+        </div> 
+      </li>
+      <li> 
+        <div class="Advertisement_Logo_Right">
+          <video muted autoplay loop>
+            <source src="img/bg_img/img4.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
+        </div> 
+      </li>
+      <li> 
+        <div class="Advertisement_Logo_Right">
+          <video muted autoplay loop>
+            <source src="img/bg_img/img4.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
+        </div> 
+      </li>
+
+     
+  </ul>
+
+
+  
+
+</ul>
+</footer>
+
+
+
+<!-- **************************************************************************************************** -->
+
+
+
+</body>
+</html>
