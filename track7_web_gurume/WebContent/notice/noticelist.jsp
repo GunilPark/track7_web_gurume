@@ -5,7 +5,7 @@
 <%@ include file="../header.jsp" %>
 
 	<section>
-		노티스 리스트
+		
 	</section>
 
 
