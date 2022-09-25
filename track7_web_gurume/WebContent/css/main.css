@@ -5,94 +5,25 @@
 
 *{margin: 0px; padding: 0px;}
 
-ul{
-	list-style:none;
-	}
-
-a{text-decoration:none;}
-
-body{
-	/*background-color: #5bd9d2;*/
-}
 
 
-/**************header정보***************/
-header{position: fixed; top:0px; width: 100%; height: 100px; }
+
+/************************************BG_Notice_View****************************************************/
+/*View컨테이너 에 대한 디폴트 세팅값 입니다*/
+.View{position: relative; width: 1000px; height: 700px; border: #f7701f 1px solid;}
+
+/*View컨테이너 내부요소 테이블에 대한 디폴트 세팅값 입니다*/
+.View table{border: solid 1px black; width: 100%; text-align: center; width: 100%; height: 100%;}
+.View table th{border: solid 1px black;}
+.View table td{border: solid 1px black;}
 
 
-nav ul{display:flex;}
-nav
-{
-	position: relative; 
-	top:0px; left:0; 
-	z-index: 2; 
-	width:100%; 
-	height: 100%; 
-    background: linear-gradient(
-    to right,
-    #ffa800 0%,
-    #ffa800 50%,
-    #f7701f 50%,
-    #f7701f 100%);
-    display: flex;
-}
-nav ul li{display: inline-block; margin-left: 15px;}
+.View .Title_row{height: 10%;} /*Title의 라인을 제어합니다*/
+.View .img_row{height: 40%;} /*img의 라인을 제어합니다*/
+.View .Content_row{height: 40%;} /*Content의 라인을 제어합니다*/
+.View .Button_row {height: 10%;} /*button의 라인을 제어합니다*/
 
-.navfont{
-	color:black;
-	font-size:30px;
-}
-.logosize{
-	padding: 10px;
-	width:80px;
-	height:80px;
-}
-.margin30{
-	margin-top:30px;
-	}
-
-/******************************************************************************************/
-section{
-	background:ffd249;
-	position: relative; 
-	border: solid 1px red;
-	margin:100px auto 0px;
-	width:1300px;
-	height:1000px;
-}
-
-
-/*******************************************푸터*************************************************/
-footer{
-	text-align:center;
-	position:relative;
-	color:white;
-	background:#202020;
-	width:100%;
-	height:100px;
-	bottom:0px;
-}
-/********************************************************************************************/
-
-
-/************************************BG****************************************************/
-/*Write컨테이너 에 대한 디폴트 세팅값 입니다*/
-.Write{position: relative; width: 1000px; border: #f7701f 1px solid;}
-
-/*Write컨테이너 내부요소 테이블에 대한 디폴트 세팅값 입니다*/
-.Write table{border: solid 1px black; width: 100%; text-align: center;}
-.Write table th{border: solid 1px black;}
-.Write table td{border: solid 1px black;}
-
-
-.Write .Title_row{height: 1px;} /*Title의 라인을 제어합니다*/
-.Write .Content_row{height: 500px;} /*Content의 라인을 제어합니다*/
-.Write .Attach_row{height: 1px;} /*Attach의 라인을 제어합니다*/
-
-
-.Write .Title_input{width: 80%;} /*타이틀의 인풋상자를 제어합니다*/
-.Write .Content_input{width: 90%; height: 450px; resize: none;} /*컨텐츠의 인풋상자를 제어합니다*/
-.Write .Attach_input{width: 90%;} /*어태치의 인풋상자를 제어합니다*/
+.View .Button_row input{margin: 0 30px;} /*button 내부에 있는 인풋을 제어합니다*/
 
 
 /*******************************************************************************************/
